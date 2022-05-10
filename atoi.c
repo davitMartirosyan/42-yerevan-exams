@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "examrank.h"
 
 int	datoi(char *toatoi)
 {
@@ -35,9 +35,4 @@ int	datoi(char *toatoi)
 		i++;
 	}
 	return (number * m);
-}
-
-int	main(void)
-{
-	printf("%d", datoi("           -1234aaa5425"));
 }

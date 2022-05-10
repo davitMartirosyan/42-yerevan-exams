@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "examrank.h"
 
 void	inter(char *s1, char *s2)
 {
@@ -31,19 +31,3 @@ void	inter(char *s1, char *s2)
 		i++;
 	}
 }
-
-int	main(int count, char **vector)
-{
-	if (count == 3)
-		inter(vector[1], vector[2]);
-	write(1, "\n", 1);
-}
-
-// ./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
-// padinto$
-
-// $>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
-// df6ewg4$
-
-// $>./inter "nothing" "This sentence hides nothing" | cat -e
-// nothig$

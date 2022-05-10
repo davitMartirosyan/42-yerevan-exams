@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "examrank.h"
 
 void	print(char *string, int *ascii)
 {
@@ -42,25 +42,3 @@ void	print_union(char *s1, char *s2)
 	print(s1, ascii);
 	print(s2, ascii);
 }
-
-int	main(int count, char **vector)
-{
-	if (count == 3)
-		print_union(vector[1], vector[2]);
-	write(1, "\n", 1);
-	return (0);
-}
-
-// $>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
-// zpadintoqefwjy$
-// zpadintoqefwjy
-
-// $>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
-// df6vewg4thras$
-// df6vewg4thras$
-// df6vewg4thras$
-
-// $>./union "rien" "cette phrase ne cache rien" | cat -e
-// rienct phas$
-// rienct phas$
-// rienct phas$
