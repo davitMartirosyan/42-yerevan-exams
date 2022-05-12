@@ -6,11 +6,11 @@
 /*   By: dmartiro <dmartiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/10 04:36:55 by dmartiro          #+#    #+#             */
-/*   Updated: 2022/05/10 05:36:02 by dmartiro         ###   ########.fr       */
+/*   Updated: 2022/05/12 01:58:37 by dmartiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "examrank.h"
+#include "../includes/examrank.h"
 
 void	print(char *string, int *ascii)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   atoi.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmartiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dmartiro <dmartiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/10 05:39:52 by dmartiro          #+#    #+#             */
-/*   Updated: 2022/05/10 06:50:15 by dmartiro         ###   ########.fr       */
+/*   Updated: 2022/05/12 01:58:34 by dmartiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "examrank.h"
+#include "../includes/examrank.h"
 
 int	datoi(char *toatoi)
 {
